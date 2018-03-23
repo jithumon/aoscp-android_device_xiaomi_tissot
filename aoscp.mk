@@ -22,7 +22,6 @@ $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 PRODUCT_NAME := aoscp_tissot
 BOARD_VENDOR := Xiaomi
 
-ALLOW_MISSING_DEPENDENCIES=true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
