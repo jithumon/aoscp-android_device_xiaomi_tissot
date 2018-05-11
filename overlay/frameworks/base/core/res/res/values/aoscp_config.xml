@@ -13,13 +13,11 @@
 -->
 <resources>
 
-
-    <!-- Whether the device supports fingerprint gestures -->
-    <bool name="config_supportsFPGestures">true</bool>
-
-
     <!-- Key codes of fingerprint gestures. If the gesture is not supported set it to 0. -->
-    <integer name="config_fpLongpressKeyCode">28</integer>
+    <integer name="config_fpSwipeUpKeyCode">195</integer>
+    <integer name="config_fpSwipeDownKeyCode">196</integer>
+    <integer name="config_fpSwipeLeftKeyCode">197</integer>
+    <integer name="config_fpSwipeRightKeyCode">198</integer>
 
     <!-- Default settings for gestures
             0 - Disabled
@@ -29,10 +27,19 @@
             4 - Next music
             5 - Previous music
             6 - Take screenshot
-            7 - Assistant -->
-    <integer name="config_fpLongpressDefault">7</integer>
+            7 - Assistant
+            8 - Home Button
+            9 - Back Button
+            10 - AppSwitch
+            11 - Wake device -->
+    <integer name="config_fpSwipeUpDefault">3</integer>
+    <integer name="config_fpSwipeDownDefault">6</integer>
+    <integer name="config_fpSwipeLeftDefault">5</integer>
+    <integer name="config_fpSwipeRightDefault">4</integer>
 
-
+    <!-- Whether the device supports fingerprint gestures -->
+    <bool name="config_supportsFPGestures">true</bool>
+   
      <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
 
